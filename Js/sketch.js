@@ -1,4 +1,5 @@
-let pontos = new Array(200)
+let qtd = parseInt(prompt("Quantidade de bolinhas: "))
+let pontos = new Array(qtd)
 function setup(){
     createCanvas(700, 700)
     for(let i = 0; i < pontos.length; i++){
